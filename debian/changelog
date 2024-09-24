@@ -1,5 +1,70 @@
-template-repository (1.0-1) unstable; urgency=medium
+kernelshark (2.3.1-2) unstable; urgency=medium
 
-  * Initial release
+  * Add upstream patch to fix FTBFS with gcc-14. (Closes: #1075112)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Fri, 05 Jul 2024 18:59:13 +0100
+
+kernelshark (2.3.1-1) unstable; urgency=medium
+
+  * New upstream version 2.3.1
+  * Update dependencies
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Mon, 06 May 2024 22:19:50 +0100
+
+kernelshark (2.2.1-1) unstable; urgency=medium
+
+  * New upstream version 2.2.1 (Closes: #1049866)
+    - Update links for version update.
+  * Fix package description. (Closes: #1028585)
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Wed, 16 Aug 2023 21:00:24 +0100
+
+kernelshark (2.2.0-2) unstable; urgency=medium
+
+  * Fix symlink names. (Closes: #1035449)
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Fri, 05 May 2023 20:37:24 +0100
+
+kernelshark (2.2.0-1) unstable; urgency=medium
+
+  * New upstream version 2.2.0
+  * Update Standards-Version to 4.6.2
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Sun, 05 Feb 2023 00:47:33 +0000
+
+kernelshark (2.1.1-2) unstable; urgency=medium
+
+  * Add depends on pkexec. (Closes: #1025577)
+  * Update Standards-Version to 4.6.1.0
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Sun, 11 Dec 2022 17:01:33 +0000
+
+kernelshark (2.1.1-1) unstable; urgency=medium
+
+  * New upstream version 2.1.1
+    - Update copyright.
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Tue, 26 Apr 2022 12:49:41 +0100
+
+kernelshark (2.0.2-2) unstable; urgency=medium
+
+  * Fix multiarch paths. (Closes: #1001512)
+    - Thanks Helmut Grohne for the patch.
+  * Update Standards-Version to 4.6.0.1
+  * Add autopkgtest.
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Wed, 29 Dec 2021 15:44:07 +0000
+
+kernelshark (2.0.2-1) unstable; urgency=medium
+
+  * Upload to unstable.
+  * New upstream version 2.0.2
+    - Refresh patch.
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Mon, 08 Nov 2021 20:39:44 +0000
+
+kernelshark (2.0-1) experimental; urgency=medium
+
+  * Initial release (Closes: #986347)
+
+ -- Sudip Mukherjee <sudipm.mukherjee@gmail.com>  Sat, 19 Jun 2021 00:13:01 +0100

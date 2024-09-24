@@ -1,0 +1,3 @@
+usr/include/kernelshark
+usr/lib/*/libkshark.so
+usr/lib/*/pkgconfig
