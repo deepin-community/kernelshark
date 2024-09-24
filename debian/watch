@@ -1,0 +1,2 @@
+version=4
+https://git.kernel.org/pub/scm/utils/trace-cmd/kernel-shark.git /pub/scm/utils/trace-cmd/kernel-shark.git/snapshot/kernel-shark-kernelshark-v?(\d\S+)\.tar\.gz

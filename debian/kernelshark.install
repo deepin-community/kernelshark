@@ -1,0 +1,5 @@
+usr/bin
+usr/lib/*/kernelshark/plugins
+usr/share/applications/kernelshark.desktop
+usr/share/icons
+usr/share/polkit-1
